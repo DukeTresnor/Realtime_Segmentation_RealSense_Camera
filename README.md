@@ -5,12 +5,13 @@ Tutorial on setting up realtime segmentation using a RealSense Camera
 Initial Goal: Segmenting out point clouds in real time using a Realsense camera. I used Intel Realsense Lidar Camera, model L515. I used a Linux operating system installed on a Windows computer.
 Realized Outcome: Success
 ## Steps to achieve outcome
-1. Using Bash. This tutorial involves using several terminals to run multiple ROS commands. In each new terminal you create, setup your bash within the root of your catkin workspace:
+1. Using Bash. This tutorial involves using several terminals to run multiple ROS commands. In each new terminal you create, setup your bash within the root of your catkin workspace:  
+
 `cd ~/catkin_ws
 source devel/setup.bash`
 
 2. Setup
-a. Installing ROS wrapper for Intel Realsense Devices — use ROS wrapper for Intel Realsense Devices as a reference. Run:
+a. Installing ROS wrapper for Intel Realsense Devices — use ROS wrapper for Intel Realsense Devices as a reference. Run:  
 `sudo apt-get install ros-$ROS_DISTRO-realsense2-camera`
 b. Installing Intel Realsense SDK 2.0 — use Intel realsense SDK 2.0 installation as a reference. Run:
 `sudo apt-key adv --keyserver keys.gnupg.net --recv-key     F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
