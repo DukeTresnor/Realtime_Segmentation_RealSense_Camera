@@ -1,7 +1,7 @@
 # Realtime_Segmentation_RealSense_Camera
 Tutorial on setting up realtime segmentation using a RealSense Camera
 
-Outcome
+## Outcome
 Initial Goal: Segmenting out point clouds in real time using a Realsense camera. I used Intel Realsense Lidar Camera, model L515. I used a Linux operating system installed on a Windows computer.
 Realized Outcome: Success
 Steps to achieve outcome
