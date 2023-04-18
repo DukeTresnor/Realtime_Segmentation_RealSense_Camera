@@ -10,11 +10,12 @@ Realized Outcome: Success
 `cd ~/catkin_ws
 source devel/setup.bash`
 
-2. Setup
+2. Setup. 
 a. Installing ROS wrapper for Intel Realsense Devices — use ROS wrapper for Intel Realsense Devices as a reference. Run:  
-`sudo apt-get install ros-$ROS_DISTRO-realsense2-camera`
-b. Installing Intel Realsense SDK 2.0 — use Intel realsense SDK 2.0 installation as a reference. Run:
-`sudo apt-key adv --keyserver keys.gnupg.net --recv-key     F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+`sudo apt-get install ros-$ROS_DISTRO-realsense2-camera`  
+b. Installing Intel Realsense SDK 2.0 — use Intel realsense SDK 2.0 installation as a reference. Run:  
+`sudo apt-key adv --keyserver keys.gnupg.net --recv-key  
+F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
 sudo add-apt-repository "deb <https://librealsense.intel.com/Debian/apt-repo> $(lsb_release -cs) main" -u
 sudo apt-get install librealsense2-dkms
 sudo apt-get install librealsense2-utils
