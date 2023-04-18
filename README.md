@@ -10,7 +10,7 @@ Realized Outcome: Success
 `cd ~/catkin_ws
 source devel/setup.bash`
 
-2. Setup. 
+2. Setup  
 a. Installing ROS wrapper for Intel Realsense Devices — use ROS wrapper for Intel Realsense Devices as a reference. Run:  
 `sudo apt-get install ros-$ROS_DISTRO-realsense2-camera`  
 b. Installing Intel Realsense SDK 2.0 — use Intel realsense SDK 2.0 installation as a reference. Run:  
